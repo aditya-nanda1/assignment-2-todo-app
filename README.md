@@ -1,24 +1,37 @@
 # Assignment-2 Todo Application
 
-A simple **React** To-Do app built for TuteDude Assignment-2.
+A sleek, polished React To-Do application with improved UI and functionality.
 
-## Features
-- Add tasks with input + button
-- Alerts for empty input or successful add
-- Checkbox to mark tasks as complete
-- Dynamic rendering without page reload
-- Minimal and clean UI
-
-## Deployment
-This app is deploy-ready for **Netlify** or **Vercel**.
-
-Deployed Link: [https://your-netlify-link.netlify.app](https://your-netlify-link.netlify.app)
-
-## How to Run Locally
-```bash
-npm install
-npm run dev
-```
+## Live Demo  
+[Check it out here »](https://scintillating-daffodil-92b4a2.netlify.app/)
 
 ---
-**Made for Assignment-2** | TuteDude
+
+##  Features Overview
+
+Here’s what makes this version stand out:
+
+### Design Enhancements (No CSS frameworks used)
+- **Glassmorphism-style container** — semi-transparent with backdrop blur, rounded edges, and soft drop shadows.
+- **Gradient background** — vibrant colors create a modern look and feel.
+- **Stylish input and button** — gradient add button with hover shadow and press animation.
+- **Smooth animations** — fade-in effect for app load, hover-lift effect on tasks, and growing animation for checkbox toggles.
+- **Custom scrollbars** — slim and minimal, ensuring long task lists remain tidy.
+
+### UX & Functional Improvements
+- **Task organization** — two sections: **Pending** and **Completed** tasks, allowing better task management.
+- **Instant update on toggle** — clicking a checkbox seamlessly moves a task between sections.
+- **Empty state messages** — friendly prompts when there are no tasks in a section.
+- **Visual polish** — readable fonts, consistent spacing, and color contrasts adapted for both light and subtle dark visuals on the glass card.
+
+---
+
+##  How to Run Locally
+
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Start the development server
+npm run dev
+
